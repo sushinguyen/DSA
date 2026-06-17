@@ -1,6 +1,3 @@
-# Bài 20. Liên hệ với heap sort
-# selection O(n²) → heap sort O(n log n)
-
 import heapq
 
 def selection_sort(a):

@@ -1,5 +1,3 @@
-# Bài 10. Đếm chính xác số swap
-# Ví dụ: a = [1, 2, 3] → 0 swap
 
 def selection_sort_swap_chinh_xac(a):
     n = len(a)
@@ -14,6 +12,6 @@ def selection_sort_swap_chinh_xac(a):
             dem_swap += 1
     return a, dem_swap
 
-print(selection_sort_swap_chinh_xac([1, 2, 3]))   # ([1,2,3], 0)
-print(selection_sort_swap_chinh_xac([3, 2, 1]))   # ([1,2,3], 2)
-print(selection_sort_swap_chinh_xac([3, 1, 2]))   # ([1,2,3], 1)
+print(selection_sort_swap_chinh_xac([1, 2, 3]))
+print(selection_sort_swap_chinh_xac([3, 2, 1]))
+print(selection_sort_swap_chinh_xac([3, 1, 2]))

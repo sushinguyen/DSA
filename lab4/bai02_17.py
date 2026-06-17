@@ -1,5 +1,3 @@
-# Bài 17. Phần tử nhỏ thứ k (partial selection)
-# Ví dụ: a = [7, 2, 5, 1, 9], k = 3 → 5
 
 def phan_tu_nho_thu_k(a, k):
     a = a[:]
@@ -13,4 +11,3 @@ def phan_tu_nho_thu_k(a, k):
 
 a = [7, 2, 5, 1, 9]
 print(phan_tu_nho_thu_k(a, 3))  # 5
-# Do phuc tap: O(n*k)

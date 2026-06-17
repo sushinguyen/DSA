@@ -1,6 +1,3 @@
-# Bài 15. Sắp xếp một phần (k nhỏ nhất)
-# Ví dụ: a = [5, 3, 1, 4, 2], k = 2 → [1, 2, ...]
-
 def partial_selection_sort(a, k):
     n = len(a)
     for i in range(k):
@@ -12,4 +9,4 @@ def partial_selection_sort(a, k):
     return a
 
 a = [5, 3, 1, 4, 2]
-print(partial_selection_sort(a, 2))  # [1, 2, 5, 4, 3]
+print(partial_selection_sort(a, 2))

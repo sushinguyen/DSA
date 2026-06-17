@@ -1,5 +1,3 @@
-# Bài 24. Tìm k nhỏ nhất: partial selection vs heap
-# k nhỏ → selection; k lớn → heap
 
 import heapq
 import time, random

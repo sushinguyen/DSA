@@ -1,6 +1,3 @@
-# Bài 12. Selection sort ổn định
-# Ví dụ: giữ nguyên thứ tự phần tử cùng khóa
-
 def selection_sort_on_dinh(a):
     n = len(a)
     for i in range(n):
@@ -18,4 +15,3 @@ def selection_sort_on_dinh(a):
 a = [(2, 'a'), (2, 'b'), (1, 'c')]
 print("Truoc:", a)
 print("Sau:  ", selection_sort_on_dinh(a))
-# [(1,'c'), (2,'a'), (2,'b')] → (2,'a') vẫn trước (2,'b') ✅

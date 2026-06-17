@@ -1,5 +1,4 @@
-# Bài 16. Sắp xếp theo trị tuyệt đối
-# Ví dụ: a = [-3, 1, -2, 2] → [1, -2, 2, -3]
+
 
 def selection_sort_abs(a):
     n = len(a)
@@ -12,4 +11,4 @@ def selection_sort_abs(a):
     return a
 
 a = [-3, 1, -2, 2]
-print(selection_sort_abs(a))  # [1, -2, 2, -3]
+print(selection_sort_abs(a)) 

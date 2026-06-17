@@ -1,5 +1,3 @@
-# Bài 18. So sánh số swap với bubble sort
-# Ví dụ: selection thường ít swap hơn bubble
 
 def selection_sort_swap(a):
     a = a[:]

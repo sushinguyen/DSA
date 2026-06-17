@@ -1,6 +1,3 @@
-# Bài 14. Selection sort trên danh sách liên kết
-# Ví dụ: 3→1→2→null → 1→2→3→null
-
 class Node:
     def __init__(self, val):
         self.val = val

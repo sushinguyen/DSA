@@ -1,6 +1,3 @@
-# Bài 21. Chứng minh số so sánh cố định
-# Chứng minh: tổng so sánh = n*(n-1)/2, không đổi theo đầu vào
-
 def dem_so_sanh(a):
     n = len(a)
     dem = 0

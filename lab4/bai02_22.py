@@ -1,6 +1,3 @@
-# Bài 22. Selection sort ổn định in-place
-# Dùng shift thay swap → ổn định nhưng O(n²) shift
-
 def selection_sort_on_dinh_inplace(a):
     n = len(a)
     for i in range(n):
@@ -17,4 +14,3 @@ def selection_sort_on_dinh_inplace(a):
 
 a = [(2, 'a'), (1, 'b'), (2, 'c'), (1, 'd')]
 print(selection_sort_on_dinh_inplace(a))
-# [(1,'b'),(1,'d'),(2,'a'),(2,'c')] → thứ tự tương đối giữ nguyên ✅

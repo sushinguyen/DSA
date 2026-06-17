@@ -1,6 +1,3 @@
-# Bài 23. Phân tích best / average / worst
-# so sánh luôn O(n²); swap: 0 đến n-1
-
 def phan_tich(a):
     a = a[:]
     n = len(a)

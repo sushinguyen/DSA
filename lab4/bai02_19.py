@@ -1,6 +1,3 @@
-# Bài 19. Double-ended selection — phân tích
-# Ví dụ: xử lý cẩn thận khi maxIdx = vị trí đầu
-
 def double_selection_sort_phan_tich(a):
     n = len(a)
     left, right = 0, n - 1

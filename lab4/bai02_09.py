@@ -1,5 +1,4 @@
-# Bài 9. Double selection sort
-# Ví dụ: a = [5, 1, 4, 2, 8] → [1, 2, 4, 5, 8]
+
 
 def double_selection_sort(a):
     n = len(a)
@@ -20,4 +19,4 @@ def double_selection_sort(a):
     return a
 
 a = [5, 1, 4, 2, 8]
-print(double_selection_sort(a))  # [1, 2, 4, 5, 8]
+print(double_selection_sort(a))  

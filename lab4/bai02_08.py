@@ -1,5 +1,3 @@
-# Bài 8. Tìm chỉ số nhỏ nhất trong đoạn [i, n)
-# Ví dụ: a = [9, 3, 7, 1, 5], i = 1 → chỉ số 3
 
 def tim_chi_so_nho_nhat(a, i):
     min_idx = i
@@ -16,5 +14,5 @@ def selection_sort(a):
     return a
 
 a = [9, 3, 7, 1, 5]
-print(tim_chi_so_nho_nhat(a, 1))  # 3
-print(selection_sort(a))           # [1, 3, 5, 7, 9]
+print(tim_chi_so_nho_nhat(a, 1))
+print(selection_sort(a))          
